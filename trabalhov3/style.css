@@ -227,6 +227,26 @@ section.home h2{
   max-width: 600px;
 }
 
+body {
+  font-family: Arial, sans-serif;
+}
+
+.video-container {
+  position: relative;
+  width: 100%; /* O contêiner ocupa toda a largura disponível */
+  height: 800px; /* Altura fixa do contêiner */
+  display: flex; /* Usa flexbox para centralizar conteúdo */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin: 0 auto; /* Centraliza o contêiner na página */
+}
+
+.video-container iframe {
+  width: 50%; /* O iframe ocupa toda a largura do contêiner */
+  height: 80%; /* O iframe ocupa toda a altura do contêiner */
+}
+
+
 /* Reference: https://stackoverflow.com/questions/43683187/how-can-i-create-custom-underline-or-highlight-for-text-in-html-or-css */
 .highlight {
   background: linear-gradient(
